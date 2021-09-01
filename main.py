@@ -75,7 +75,7 @@ class MyClient(discord.Client):
 
 
 def main():
-    # DialoGPT-medium-joshua is my model name
+    # DialoGPT-large of microsoft is what I am using
     client = MyClient('DialoGPT-large')
     discord_token = "YOUR_DISCORD_TOKEN"
     client.run(discord_token)
